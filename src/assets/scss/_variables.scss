@@ -1,0 +1,58 @@
+@import "colors";
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark:                 $grey-900 !default;
+$gray:                      $grey-500 !default;
+$gray-light:                $grey-400 !default;
+$gray-lighter:              $grey-300 !default;
+$gray-lightest:             $grey-200 !default;
+
+$brand-primary:             $blue-500 !default;
+$brand-success:             $grey-500 !default;
+$brand-info:                $light-blue-500 !default;
+$brand-warning:             $deep-orange-500 !default;
+$brand-danger:              $red-500 !default;
+
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-flex:               true !default;
+$enable-rounded:            false !default;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        false !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                    $white !default;
+$body-color:                 $text-dark-primary !default;
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 $brand-primary !default;
+$link-decoration:            none !default;
+$link-hover-color:           darken($link-color, 15%) !default;
+$link-hover-decoration:      underline !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:     "Century Gothic", CenturyGothic, AppleGothic, sans-serif !default;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:           $font-family-sans-serif !default;
